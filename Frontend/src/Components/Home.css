@@ -1,0 +1,9 @@
+.Book{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:15px;
+}
+.Book div img{
+    width: 150px;
+    height: 5vh;
+}
