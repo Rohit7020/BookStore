@@ -20,7 +20,7 @@ let Home=()=>{
             <tbody>
             {
                 data.map((item,index)=>{
-                    return(<div><td><img src={`http://localhost:7000/img/${data.img}`} key={index}/></td><br/>
+                    return(<div><td><img src={`http://localhost:7000/img/${item.img}`} key={index}/></td><br/>
                     <td>Book Nmae: {item.Bname}</td><br/>
                     <td>Author: {item.Author}</td><br/>
                     <td>Publisher: {item.Publisher}</td><br/>
